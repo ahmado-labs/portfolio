@@ -37,7 +37,7 @@ export default function Home() {
             Visual yang bercerita dan karya yang berbicara.”
           </h2>
 
-          <p className="text-gray-400 mb-8">
+          <p className="text-gray-300 mb-8">
             Mengolah gagasan menjadi visual yang dapat dipahami, dengan perhatian pada detail, struktur, dan pesan yang ingin disampaikan.
           </p>
 
@@ -54,7 +54,7 @@ export default function Home() {
       </main>
 
       {/* PORTFOLIO */}
-      <section className="bg-black text-white py-28 px-6 fade-section">
+      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
         <div className="max-w-6xl mx-auto">
           
           {/* Judul */}
@@ -84,7 +84,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold mb-2 group-hover:text-purple-400 transition">
                   Instagram Feed Design for Coffee Brand
                 </h3>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-300 text-sm">
                   Designed a modern Instagram feed to improve brand consistency and attract more engagement.
                 </p>
               </div>
@@ -110,7 +110,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold mb-2 group-hover:text-purple-400 transition">
                   Event Poster Design
                 </h3>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-300 text-sm">
                   Created a visually engaging poster to promote an event and capture audience attention.
                 </p>
               </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold mb-2 group-hover:text-purple-400 transition">
                   Brand Identity for Local Business
                 </h3>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-300 text-sm">
                   Developed a clean and modern visual identity to strengthen brand recognition.
                 </p>
               </div>
@@ -156,7 +156,7 @@ export default function Home() {
             Esensi Diri
           </h2>
 
-          <p className="text-gray-400 leading-relaxed mb-10">
+          <p className="text-gray-300 leading-relaxed mb-10 max-w-2xl mx-auto">
             Seorang penuntut ilmu, desainer grafis, kreator digital, sekaligus pengembang typeface yang berfokus pada perancangan visual berbasis makna dan pesan.
             Bagi saya, desain adalah bahasa sunyi yang berbicara tanpa suara—lahir dari rasa, tumbuh dalam imajinasi, lalu menjelma menjadi bentuk yang dapat ditangkap oleh mata dan dirasakan oleh hati.
             Dalam setiap proses, saya menempatkan konsistensi, presisi, dan perhatian terhadap detail sebagai dasar. Setiap karya berangkat dari pengolahan ide dan referensi, dengan pendekatan yang menekankan kejelasan pesan dan kedalaman makna.
@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* SKILLS */}
-      <section className="bg-black text-white py-28 px-6 fade-section">
+      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-10">
@@ -207,15 +207,16 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
+      <section className="bg-black text-white py-28 px-6 border-t border-gray-800  fade-section">
         <div className="max-w-3xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">
-            Let’s Work Together
+            Let's Connect Together
           </h2>
 
-          <p className="text-gray-400 mb-8">
-            Have a project in mind? Let’s bring your ideas to life with clean and impactful design.
+          <p className="text-gray-300 mb-8">
+            Setiap ide memiliki potensi untuk menjadi karya.
+            Melalui pendekatan yang tepat, gagasan dapat diterjemahkan menjadi visual yang bermakna.
           </p>
 
           <div className="flex justify-center gap-4">
@@ -224,23 +225,28 @@ export default function Home() {
             <a 
               href="https://wa.me/6281259987615" 
               target="_blank"
-              className="bg-green-500 text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+              className="bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
             >
-              Contact via WhatsApp
+              WhatsApp
             </a>
 
             {/* Email Button */}
             <a 
               href="mailto:widaahmat@gmail.com"
-              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition"
+              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition duration-300"
             >
-              Send Email
+              Email
             </a>
 
           </div>
 
         </div>
       </section>
+      
+      {/* FOOTER */}
+      <footer className="bg-black text-gray-500 text-center py-6 border-t border-gray-800">
+        © {new Date().getFullYear()} Ahmad. Dari awal yang kecil, menjadi sesuatu yang berarti.
+      </footer>
     </>
   );
 }
