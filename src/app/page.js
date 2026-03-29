@@ -34,7 +34,7 @@ export default function Home() {
       </main>
 
       {/* PORTFOLIO */}
-      <section className="bg-black text-white py-28 px-6">
+      <section className="bg-black text-white py-28 px-6 animate-fadeUp">
         <div className="max-w-6xl mx-auto">
           
           {/* Judul */}
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section className="bg-black text-white py-28 px-6 border-t border-gray-800">
+      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 animate-fadeUp">
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* SKILLS */}
-      <section className="bg-black text-white py-28 px-6">
+      <section className="bg-black text-white py-28 px-6 animate-fadeUp">
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-10">
@@ -187,7 +187,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section className="bg-black text-white py-28 px-6 border-t border-gray-800">
+      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 animate-fadeUp">
         <div className="max-w-3xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">
