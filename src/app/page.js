@@ -40,22 +40,22 @@ export default function Home() {
             Mengolah gagasan menjadi visual yang dapat dipahami, dengan perhatian pada detail, struktur, dan pesan yang ingin disampaikan.
           </p>
 
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-col md:flex-row gap-4 mt-6 items-center justify-center">
             <a 
               href="#portfolio"
-              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
+              className="w-full md:w-auto text-center border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
               View Portfolio
             </a>
 
             <a
               href="#contact"
-              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
+              className="w-full md:w-auto text-center border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
               Contact Me
             </a>
 
             <a
               href="#about"
-              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
+              className="w-full md:w-auto text-center border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
               About Me
             </a>
           </div>
