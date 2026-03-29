@@ -162,7 +162,7 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-300 leading-relaxed mb-10 max-w-2xl mx-auto">
-            Seorang penuntut ilmu yang mendedikasikan diri pada perancangan visual berbasis makna dan pesan. Bagi saya, desain adalah bahasa sunyi yang berbicara tanpa suara—lahir dari rasa, tumbuh dalam imajinasi, lalu menjelma menjadi bentuk yang dapat ditangkap oleh mata dan dirasakan oleh hati.
+            Seorang penuntut ilmu yang mendedikasikan diri pada perancangan visual berbasis makna dan pesan. Bagiku, desain adalah bahasa sunyi yang berbicara tanpa suara—lahir dari rasa, tumbuh dalam imajinasi, lalu menjelma menjadi bentuk yang dapat ditangkap oleh mata dan dirasakan oleh hati.
             Perjalanan kreatif ini bermula dari perancangan desain grafis dan aset visual untuk pasar microstock, serta pengembangan berbagai media publikasi digital maupun cetak yang kemudian berkembang ke ranah produksi video secara utuh—dari tahap pra hingga pascaproduksi, bersamaan dengan pengelolaan operasional live streaming serta strategi konten dan branding di media sosial. Dalam setiap prosesnya, saya menempatkan konsistensi, presisi, dan perhatian terhadap detail sebagai dasar. Setiap karya berangkat dari pengolahan ide dan referensi, dengan pendekatan yang menekankan kejelasan pesan dan kedalaman makna.
             Saat ini, saya banyak mengeksplorasi tipografi sebagai medium utama dalam pengembangan typeface, sekaligus terus memperkuat kapasitas diri dalam membangun narasi visual yang berdampak.
             Berangkat dari latar belakang sebagai santri, saya memandang media dan teknologi sebagai sarana untuk menyampaikan nilai dan pesan kepada generasi masa depan.  
