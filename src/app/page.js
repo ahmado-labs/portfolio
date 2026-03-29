@@ -48,12 +48,16 @@ export default function Home() {
             {/* Item 1 */}
             <a href="https://www.myfonts.com/collections/abda-bil-qalam-foundry?sort_by=price-ascending&pageType=foundryPage" className="group block bg-gray-900 rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               
-              <div className="overflow-hidden">
+              <div className="relative overflow-hidden">
                 <img 
                   src="/images/project1.png" 
                   alt="Project 1"
                   className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
                 />
+
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                  <span className="text-white text-sm">Lihat Detail</span>
+                </div>
               </div>
 
               <div className="p-4">
@@ -70,12 +74,16 @@ export default function Home() {
             {/* Item 2 */}
             <a href="https://stock.adobe.com/id/contributor/205709091/Ahmad" className="group block bg-gray-900 rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               
-              <div className="overflow-hidden">
+              <div className="relative overflow-hidden">
                 <img 
-                  src="/images/project2.png" 
-                  alt="Project 2"
+                  src="/images/project1.png" 
+                  alt="Project 1"
                   className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
                 />
+
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                  <span className="text-white text-sm">Lihat Detail</span>
+                </div>
               </div>
 
               <div className="p-4">
@@ -92,12 +100,16 @@ export default function Home() {
             {/* Item 3 */}
             <a href="#" className="group block bg-gray-900 rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
               
-              <div className="overflow-hidden">
+              <div className="relative overflow-hidden">
                 <img 
-                  src="/images/project3.png" 
-                  alt="Project 3"
+                  src="/images/project1.png" 
+                  alt="Project 1"
                   className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
                 />
+
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                  <span className="text-white text-sm">Lihat Detail</span>
+                </div>
               </div>
 
               <div className="p-4">
