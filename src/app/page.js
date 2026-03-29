@@ -121,13 +121,13 @@ export default function Home() {
             </a>
 
             {/* Item 3 */}
-            <a href="#" 
+            <a href="https://www.youtube.com/watch?v=8VJ8xalz5mA" 
                 target="_blank"
                 className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
               
               <div className="relative overflow-hidden">
                 <img 
-                  src="/images/project1.png" 
+                  src="/images/videolead.png" 
                   alt="Project 1"
                   className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -139,10 +139,10 @@ export default function Home() {
 
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-2 group-hover:text-purple-400 transition">
-                  Brand Identity for Local Business
+                  Video Production Team Lead
                 </h3>
                 <p className="text-gray-300 text-sm">
-                  Developed a clean and modern visual identity to strengthen brand recognition.
+                  Terlibat dalam proses produksi video, mencakup penyusunan konsep, pengambilan gambar, hingga penyuntingan, dengan pendekatan yang terarah dan kolaboratif.
                 </p>
               </div>
 
@@ -162,10 +162,9 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-300 leading-relaxed mb-10 max-w-2xl mx-auto">
-            Seorang penuntut ilmu, desainer grafis, kreator digital, sekaligus pengembang typeface yang berfokus pada perancangan visual berbasis makna dan pesan.
-            Bagi saya, desain adalah bahasa sunyi yang berbicara tanpa suara—lahir dari rasa, tumbuh dalam imajinasi, lalu menjelma menjadi bentuk yang dapat ditangkap oleh mata dan dirasakan oleh hati.
-            Dalam setiap proses, saya menempatkan konsistensi, presisi, dan perhatian terhadap detail sebagai dasar. Setiap karya berangkat dari pengolahan ide dan referensi, dengan pendekatan yang menekankan kejelasan pesan dan kedalaman makna.
-            Saat ini, saya banyak mengeksplorasi tipografi sebagai medium utama, sekaligus mengembangkan kemampuan dalam branding, konten visual, dan penguatan kapasitas diri secara berkelanjutan.
+            Seorang penuntut ilmu yang mendedikasikan diri pada perancangan visual berbasis makna dan pesan. Bagi saya, desain adalah bahasa sunyi yang berbicara tanpa suara—lahir dari rasa, tumbuh dalam imajinasi, lalu menjelma menjadi bentuk yang dapat ditangkap oleh mata dan dirasakan oleh hati.
+            Perjalanan kreatif ini bermula dari perancangan desain grafis dan aset visual untuk pasar microstock, serta pengembangan berbagai media publikasi digital maupun cetak yang kemudian berkembang ke ranah produksi video secara utuh—dari tahap pra hingga pascaproduksi, bersamaan dengan pengelolaan operasional live streaming serta strategi konten dan branding di media sosial. Dalam setiap prosesnya, saya menempatkan konsistensi, presisi, dan perhatian terhadap detail sebagai dasar. Setiap karya berangkat dari pengolahan ide dan referensi, dengan pendekatan yang menekankan kejelasan pesan dan kedalaman makna.
+            Saat ini, saya banyak mengeksplorasi tipografi sebagai medium utama dalam pengembangan typeface, sekaligus terus memperkuat kapasitas diri dalam membangun narasi visual yang berdampak.
             Berangkat dari latar belakang sebagai santri, saya memandang media dan teknologi sebagai sarana untuk menyampaikan nilai dan pesan kepada generasi masa depan.  
           </p>
 
