@@ -133,12 +133,15 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">
-            About Me
+            Esensi Diri
           </h2>
 
           <p className="text-gray-400 leading-relaxed mb-10">
-            I am a freelance graphic designer who loves turning ideas into clean and modern visuals. 
-            I fo  cus on helping brands stand out through designs that are not only aesthetic but also meaningful and impactful.
+            Seorang penuntut ilmu, desainer grafis, kreator digital, sekaligus pengembang typeface yang berfokus pada perancangan visual berbasis makna dan pesan.
+            Bagi saya, desain adalah bahasa sunyi yang berbicara tanpa suara—lahir dari rasa, tumbuh dalam imajinasi, lalu menjelma menjadi bentuk yang dapat ditangkap oleh mata dan dirasakan oleh hati.
+            Dalam setiap proses, saya menempatkan konsistensi, presisi, dan perhatian terhadap detail sebagai dasar. Setiap karya berangkat dari pengolahan ide dan referensi, dengan pendekatan yang menekankan kejelasan pesan dan kedalaman makna.
+            Saat ini, saya banyak mengeksplorasi tipografi sebagai medium utama, sekaligus mengembangkan kemampuan dalam branding, konten visual, dan penguatan kapasitas diri secara berkelanjutan.
+            Berangkat dari latar belakang sebagai santri, saya memandang media dan teknologi sebagai sarana untuk menyampaikan nilai dan pesan kepada generasi masa depan.  
           </p>
 
         </div>
