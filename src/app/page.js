@@ -191,35 +191,35 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-4">
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Microstock Contributor
-            </span>
+            </span> 
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Live Stream Production
             </span>
             
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Video Production (End-to-End)
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Content Strategy & Management
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Social Media Design
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Branding
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Typeface Designer
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               UI Design
             </span>
 
@@ -237,51 +237,51 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-4">
             
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Inkscape
             </span>
             
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Adobe Photoshop
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Adobe Illustrator
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Affinity
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Canva
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Adobe Premiere Pro
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Capcut
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               vMix
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               OBS Studio
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               FontForge
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Figma
             </span>
 
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
               Visual Studio Code
             </span>
 
@@ -308,7 +308,7 @@ export default function Home() {
             <a 
               href="https://www.instagram.com/ahma_doee/"
               target="_blank"
-              className="bg-white -500 text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+              className="bg-white -500 text-white px-6 py-3 rounded-full font-medium hover:opacity-20 transition"
             >
               <img src="/icons/instagram.svg" className="w-7 h-7" />
             </a>
@@ -317,7 +317,7 @@ export default function Home() {
             <a 
               href="https://www.threads.com/@ahma_doee?xmt=AQF0GMLE-DLNvz0VOxQVfY4Ow2oHV5HvJFYXDgdJuRsaH8U"
               target="_blank"
-              className="bg-white text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+              className="bg-white text-white px-6 py-3 rounded-full font-medium hover:opacity-20 transition"
             >
               <img src="/icons/threads.svg" className="w-7 h-7" />
             </a>
@@ -326,7 +326,7 @@ export default function Home() {
             <a 
               href="https://web.facebook.com/wida.ahmat/"
               target="_blank"
-              className="bg-white text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+              className="bg-white text-white px-6 py-3 rounded-full font-medium hover:opacity-20 transition"
             >
               <img src="/icons/facebook.svg" className="w-7 h-7" />
             </a>
