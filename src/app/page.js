@@ -33,8 +33,7 @@ export default function Home() {
           </h1>
 
           <h2 className="text-xl md:text-2xl text-gray-300 mb-6">
-            “Merancang dengan rasa, bukan hanya rupa.
-            Visual yang bercerita dan karya yang berbicara.”
+            “The visible carries the invisible”
           </h2>
 
           <p className="text-gray-300 mb-8">
@@ -59,18 +58,20 @@ export default function Home() {
           
           {/* Judul */}
           <h2 className="text-4xl font-bold mb-12 text-center">
-            My Work
+            Jejak Visual
           </h2>
 
           {/* Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             {/* Item 1 */}
-            <a href="https://www.myfonts.com/collections/abda-bil-qalam-foundry?sort_by=price-ascending&pageType=foundryPage" className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
+            <a href="https://stock.adobe.com/id/contributor/205709091/Ahmad"
+                target="_blank"
+                className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
               
               <div className="relative overflow-hidden">
                 <img 
-                  src="/images/project1.png" 
+                  src="/images/Adobe.png" 
                   alt="Project 1"
                   className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -82,21 +83,23 @@ export default function Home() {
 
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-2 group-hover:text-purple-400 transition">
-                  Instagram Feed Design for Coffee Brand
+                  Adobe Stock Contributor
                 </h3>
                 <p className="text-gray-300 text-sm">
-                  Designed a modern Instagram feed to improve brand consistency and attract more engagement.
+                  Membuat dan mengunggah aset visual yang dirancang untuk kebutuhan komersial, dengan fokus pada konsistensi visual, kualitas, dan kegunaan.
                 </p>
               </div>
 
             </a>
 
             {/* Item 2 */}
-            <a href="https://stock.adobe.com/id/contributor/205709091/Ahmad" className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
+            <a href="https://www.myfonts.com/collections/abda-bil-qalam-foundry?sort_by=price-ascending&pageType=foundryPage" 
+                target="_blank"
+                className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
               
               <div className="relative overflow-hidden">
                 <img 
-                  src="/images/project1.png" 
+                  src="/images/myfont.png" 
                   alt="Project 1"
                   className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -108,17 +111,19 @@ export default function Home() {
 
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-2 group-hover:text-purple-400 transition">
-                  Event Poster Design
+                  Foundry “Abda bil Qalam” — MyFonts (Monotype)
                 </h3>
                 <p className="text-gray-300 text-sm">
-                  Created a visually engaging poster to promote an event and capture audience attention.
+                  Menghadirkan karya tipografi melalui platform MyFonts sebagai bagian dari pengembangan dan eksplorasi desain huruf.
                 </p>
               </div>
 
             </a>
 
             {/* Item 3 */}
-            <a href="#" className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
+            <a href="#" 
+                target="_blank"
+                className="group block bg-gray-900 rounded-2xl overflow-hidden transform transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]">
               
               <div className="relative overflow-hidden">
                 <img 
@@ -172,10 +177,14 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-10">
-            Skills
+            Experience
           </h2>
 
           <div className="flex flex-wrap justify-center gap-4">
+            
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Inkscape
+            </span>
             
             <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
               Adobe Photoshop
@@ -186,7 +195,27 @@ export default function Home() {
             </span>
 
             <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Affinity
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
               Canva
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Adobe Premiere Pro
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Capcut
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Visual Studio Code
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Typeface Designer
             </span>
 
             <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
@@ -202,7 +231,6 @@ export default function Home() {
             </span>
 
           </div>
-
         </div>
       </section>
 
@@ -244,7 +272,7 @@ export default function Home() {
       </section>
       
       {/* FOOTER */}
-      <footer className="bg-black text-gray-500 text-center py-6 border-t border-gray-800">
+      <footer className="bg-black text-gray-600 text-center py-6 border-t border-gray-800">
         © {new Date().getFullYear()} Ahmad. Dari awal yang kecil, menjadi sesuatu yang berarti.
       </footer>
     </>
