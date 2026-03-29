@@ -9,15 +9,16 @@ export default function Home() {
 
         <div className="text-center max-w-2xl relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Your Name
+            @ahmadoe
           </h1>
 
           <h2 className="text-xl md:text-2xl text-gray-300 mb-6">
-            TAGLINE KAMU
+            “Merancang dengan rasa, bukan hanya rupa.
+            Visual yang bercerita dan karya yang berbicara.”
           </h2>
 
           <p className="text-gray-400 mb-8">
-            I create clean, modern, and impactful visual designs that help brands stand out and communicate effectively.
+            Mengolah gagasan menjadi visual yang dapat dipahami, dengan perhatian pada detail, struktur, dan pesan yang ingin disampaikan.
           </p>
 
           <div className="flex justify-center gap-4">
@@ -57,10 +58,10 @@ export default function Home() {
 
               <div className="p-4">
                 <h3 className="font-semibold mb-2 group-hover:text-purple-400 transition">
-                  Social Media Design
+                  Instagram Feed Design for Coffee Brand
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Clean and modern Instagram feed design
+                  Designed a modern Instagram feed to improve brand consistency and attract more engagement.
                 </p>
               </div>
 
@@ -79,10 +80,10 @@ export default function Home() {
 
               <div className="p-4">
                 <h3 className="font-semibold mb-2 group-hover:text-purple-400 transition">
-                  Social Media Design
+                  Event Poster Design
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Clean and modern Instagram feed design
+                  Created a visually engaging poster to promote an event and capture audience attention.
                 </p>
               </div>
 
@@ -101,10 +102,10 @@ export default function Home() {
 
               <div className="p-4">
                 <h3 className="font-semibold mb-2 group-hover:text-purple-400 transition">
-                  Social Media Design
+                  Brand Identity for Local Business
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Clean and modern Instagram feed design
+                  Developed a clean and modern visual identity to strengthen brand recognition.
                 </p>
               </div>
 
