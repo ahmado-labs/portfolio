@@ -41,19 +41,29 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-4">
-            <button className="bg-white text-black px-6 py-3 rounded-full font-medium hover:opacity-80 transition">
+            <a 
+              href="#portfolio"
+              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
               View Portfolio
-            </button>
+            </a>
 
-            <button className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
+            <a
+              href="#contact"
+              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
               Contact Me
-            </button>
+            </a>
+
+            <a
+              href="#about"
+              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
+              About Me
+            </a>
           </div>
         </div>
       </main>
 
       {/* PORTFOLIO */}
-      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
+      <section id="portfolio" className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
         <div className="max-w-6xl mx-auto">
           
           {/* Judul */}
@@ -154,7 +164,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
+      <section id="about" className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">
@@ -171,12 +181,58 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SKILLS */}
+      {/* EXPERIENCE */}
       <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
         <div className="max-w-4xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-10">
             Experience
+          </h2>
+
+          <div className="flex flex-wrap justify-center gap-4">
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Microstock Contributor
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Live Stream Production
+            </span>
+            
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Video Production (End-to-End)
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Content Strategy & Management
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Social Media Design
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Branding
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Typeface Designer
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              UI Design
+            </span>
+
+          </div>
+        </div>
+      </section>
+
+      {/* TOOLS */}
+      <section className="bg-black text-white py-28 px-6 border-t border-gray-800 fade-section">
+        <div className="max-w-4xl mx-auto text-center">
+          
+          <h2 className="text-3xl font-bold mb-10">
+            Tools
           </h2>
 
           <div className="flex flex-wrap justify-center gap-4">
@@ -210,23 +266,23 @@ export default function Home() {
             </span>
 
             <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              vMix
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              OBS Studio
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              FontForge
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
+              Figma
+            </span>
+
+            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
               Visual Studio Code
-            </span>
-
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
-              Typeface Designer
-            </span>
-
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
-              Social Media Design
-            </span>
-
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
-              Branding
-            </span>
-
-            <span className="border border-gray-700 px-4 py-2 rounded-full text-sm">
-              UI Design
             </span>
 
           </div>
@@ -234,7 +290,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section className="bg-black text-white py-28 px-6 border-t border-gray-800  fade-section">
+      <section id="contact" className="bg-black text-white py-28 px-6 border-t border-gray-800  fade-section">
         <div className="max-w-3xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">
@@ -246,21 +302,39 @@ export default function Home() {
             Melalui pendekatan yang tepat, gagasan dapat diterjemahkan menjadi visual yang bermakna.
           </p>
 
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-4 flex-wrap">
             
-            {/* WhatsApp Button */}
+            {/* Instagram */}
             <a 
-              href="https://wa.me/6281259987615" 
+              href="https://www.instagram.com/ahma_doee/"
               target="_blank"
-              className="bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+              className="bg-white -500 text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
             >
-              WhatsApp
+              <img src="/icons/instagram.svg" className="w-7 h-7" />
             </a>
 
-            {/* Email Button */}
+            {/* Threads */}
+            <a 
+              href="https://www.threads.com/@ahma_doee?xmt=AQF0GMLE-DLNvz0VOxQVfY4Ow2oHV5HvJFYXDgdJuRsaH8U"
+              target="_blank"
+              className="bg-white text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+            >
+              <img src="/icons/threads.svg" className="w-7 h-7" />
+            </a>
+
+            {/* Facebook */}
+            <a 
+              href="https://web.facebook.com/wida.ahmat/"
+              target="_blank"
+              className="bg-white text-white px-6 py-3 rounded-full font-medium hover:opacity-80 transition"
+            >
+              <img src="/icons/facebook.svg" className="w-7 h-7" />
+            </a>
+
+            {/* Email */}
             <a 
               href="mailto:widaahmat@gmail.com"
-              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition duration-300"
+              className="border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition"
             >
               Email
             </a>
