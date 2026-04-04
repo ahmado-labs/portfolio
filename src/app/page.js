@@ -48,15 +48,15 @@ export default function Home() {
             </a>
 
             <a
-              href="#contact"
-              className="w-full md:w-auto text-center border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
-              Contact Me
-            </a>
-
-            <a
               href="#about"
               className="w-full md:w-auto text-center border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
               About Me
+            </a>
+            
+            <a
+              href="#contact"
+              className="w-full md:w-auto text-center border border-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition">
+              Contact Me
             </a>
           </div>
         </div>

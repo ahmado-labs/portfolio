@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Siapa Ahmad?",
-  description: "Portfolio of a graphic designer specializing in modern and impactful visual design",
+  description: "Portofolio desainer grafis dengan spesialisasi desain visual yang modern dan impresif.",
 };
 
 export default function RootLayout({ children }) {
